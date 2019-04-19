@@ -8,9 +8,9 @@ let objects = [];
 let image_el;
 
 // meraki camera config
-let network_id = "L_668784544664521658";
+let network_id = "Rosinski";
 
-let camera_serial = "Q2EV-4LMQ-R4LW";
+let camera_serial = "Q2GV-S7XJ-MDPP";
 
 async function setup() {
     createCanvas(width, height);
