@@ -7,9 +7,9 @@ from meraki.util import init_meraki, get_snapshot
 app = Flask(__name__, static_url_path='/static')
 CORS(app)
 
-MERAKI_API_KEY = ""
+MERAKI_API_KEY = "8c16d9089561552801665d9fef80b0107cf93744"
 
-NETWORK_ID = "L_668784544664521658"
+NETWORK_ID = "Rosinski"
 
 
 @app.route("/")
@@ -18,7 +18,7 @@ def index():
 
 
 @app.route('/networks/<networkId>/cameras/<camera_serial>/snapshot', methods=['GET'])
-def snapshot(networkId="L_668784544664521658", camera_serial="Q2EV-EVZJ-GQSS"):
+def snapshot(networkId="Rosinski", camera_serial="Q2GV-S7XJ-MDPP"):
 
     # get current timestamp
     utc_offset_sec = time.altzone if time.localtime().tm_isdst else time.timezone
