@@ -9,7 +9,7 @@ CORS(app)
 
 MERAKI_API_KEY = "8c16d9089561552801665d9fef80b0107cf93744"
 
-NETWORK_ID = "Rosinski"
+NETWORK_ID = " L_646829496481087960"
 
 
 @app.route("/")
@@ -18,7 +18,7 @@ def index():
 
 
 @app.route('/networks/<networkId>/cameras/<camera_serial>/snapshot', methods=['GET'])
-def snapshot(networkId="Rosinski", camera_serial="Q2GV-S7XJ-MDPP"):
+def snapshot(networkId=" L_646829496481087960", camera_serial="Q2GV-S7XJ-MDPP"):
 
     # get current timestamp
     utc_offset_sec = time.altzone if time.localtime().tm_isdst else time.timezone
