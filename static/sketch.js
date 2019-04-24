@@ -8,7 +8,7 @@ let objects = [];
 let image_el;
 
 // meraki camera config
-let network_id = " L_646829496481087960";
+let network_id = "L_646829496481087960";
 
 let camera_serial = "Q2GV-S7XJ-MDPP";
 
